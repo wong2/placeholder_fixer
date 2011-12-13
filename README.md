@@ -17,3 +17,7 @@ Usage: include placeholder_fixer.js on the bottom of your `<body>`
         <script type="text/javascript" src="placeholder_fixer.js"></script>
     </body>
     </html>
+
+One important thing to notice is that you would have to use `getValue()` of the input element to get it's real value.  
+for example: `var uname = document.getElementById("uname").getValue();`  
+I can't find a way to simplify this step.
