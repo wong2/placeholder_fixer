@@ -2,7 +2,7 @@ in html5, there's a placeholder property for `<input />` but some browsers(like 
 
 Usage: include placeholder_fixer.js on the bottom of your `<body>`  
 
-```
+```html
 <!doctype html>
 <html>
 <head>
